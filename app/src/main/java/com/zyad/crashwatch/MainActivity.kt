@@ -56,7 +56,7 @@ class MainActivity : Activity() {
         val input = EditText(this).apply {
             hint = "أدخل المضاعف مثل 1.75"
             inputType = 8194
-            singleLine = true
+            isSingleLine = true
         }
         root.addView(input, ViewGroup.LayoutParams(-1, -2))
 
